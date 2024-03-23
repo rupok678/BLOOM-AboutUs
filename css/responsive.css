@@ -1,0 +1,238 @@
+/* // X-Small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap */
+
+/* // Small devices (landscape phones, 320px and up) */
+@media (min-width: 320px) and (max-width: 575px) { 
+    .py_40 {
+        padding: 20px 0 !important;
+    }
+    .pb_60{
+        padding-bottom: 40px !important;
+    }
+    h1 {
+        font-size: 44px;
+        font-weight: 700;
+    }
+    h2{
+        font-size: 34px;
+        font-weight: 500;
+    }
+    h5 {
+        font-size: 20px;
+        font-weight: 500;
+    }
+    .btn_transparent,
+    .btn {
+        font-size: 14px;
+        padding: 18px 35px;
+    }
+    .img-fluid {
+        max-width: 95%;
+    }
+    .navbar {
+        padding-top: 20px;
+    }
+    .banner_part.pt_186 {
+        padding-top: 64px !important;
+    }
+    .banner_items.pb_70 {
+        padding-bottom: 60px !important;
+    }
+    .bannerBottomMenu a {
+        font-size: 13px;
+        font-weight: 400;
+        color: #fff;
+    }
+    .menu li {
+        padding: 3px 10px;
+    }
+    .menu li a{
+        font-size: 13px;
+    }
+    .aboutPart.pt_70 {
+        padding-top: 55px !important;
+    }
+    p.pb_130 {
+        padding-bottom: 50px !important;
+    }
+    .aboutText p {
+        padding-top: 25px;
+    }
+    .lt_arrow {
+        right: 15%;
+    }
+    .teamPart.pb_70 {
+        padding-bottom: 35px !important;
+    }
+    .hiringPart.pt_130 {
+        padding-top: 44px !important;
+    }
+    .hiringPart.pb_100 {
+        padding-bottom: 50px !important;
+    }
+    .hiringButton.mt_70 {
+        margin-top: 35px !important;
+    }
+    .extraHiringText p {
+        font-size: 12px;
+    }
+    .extraHiringText.pt_80 {
+        padding-top: 45px !important;
+    }
+    .extraHiringText.pb_100 {
+        padding-bottom: 50px !important;
+    }
+    .footerRagister {
+        padding: 33px 0 10px;
+    }
+    .footerMenu{
+        /* text-align: center; */
+    }
+    .topFooter {
+        padding-bottom: 4px;
+    }
+    .footerLogo.pb_40 {
+        padding-bottom: 28px !important;
+    }
+    .footerLogo.pt_70 {
+        padding-top: 40px !important;
+    }
+    .footerMenu.pt_100 {
+        padding-top: 35px !important;
+    }
+    .lastMenu.pt_100 {
+        padding-top: 22px !important;
+    }
+    .footerMenu ul li {
+        padding-bottom: 20px;
+    }
+    .footerButton {
+        margin-top: 23px;
+    }
+    .footerMenu ul li a {
+        font-size: 13px;
+    }
+    .copyRightText p {
+        font-size: 13px;
+    }
+ }
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767px) { 
+    .img-fluid {
+        max-width: 95%;
+    }
+    h1 {
+        font-size: 65px;
+    }
+    h2 {
+        font-size: 37px;
+    }
+    .menu li {
+        padding: 3px 10px;
+    }
+    .hiringPart.pt_130 {
+        padding-top: 76px !important;
+    }
+    .hiringPart.pb_100 {
+        padding-bottom: 84px !important;
+    }
+    .hiringButton.mt_70 {
+        margin-top: 47px !important;
+    }
+    .btn {
+        font-size: 15px;
+        padding: 23px 53px;
+    }
+    .banner_part.pt_186 {
+        padding-top: 83px !important;
+    }
+    .extraHiringText.pt_80 {
+        padding-top: 48px !important;
+    }
+    .extraHiringText.pb_100 {
+        padding-bottom: 54px !important;
+    }
+    .teamPart.pb_70 {
+        padding-bottom: 25px !important;
+    }
+    p.pb_130 {
+        padding-bottom: 55px !important;
+    }
+    .topFooter {
+        padding-bottom: 10px;
+    }
+    .footerButton {
+        margin-top: 30px;
+        margin-left: 5px;
+    }
+    .footerLogo.pt_70 {
+        padding-top: 47px !important;
+    }
+    .footerLogo.pb_40 {
+        padding-bottom: 30px !important;
+    }
+    .footerMenu.pt_100 {
+        padding-top: 35px !important;
+    }
+ }
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991px) { 
+    .banner_part.pt_186 {
+        padding-top: 80px !important;
+    }
+    p.pb_130 {
+        padding-bottom: 65px !important;
+    }
+    .teamPart.pb_70 {
+        padding-bottom: 30px !important;
+    }
+    .hiringPart.pt_130 {
+        padding-top: 80px !important;
+    }
+    .hiringButton.mt_70 {
+        margin-top: 50px !important;
+    }
+    .hiringPart.pb_100 {
+        padding-bottom: 80px !important;
+    }
+    .extraHiringText.pt_80 {
+        padding-top: 60px !important;
+    }
+    .extraHiringText.pb_100 {
+        padding-bottom: 60px !important;
+    }
+    .topFooter {
+        padding-bottom: 13px;
+    }
+    .footerButton {
+        margin-top: 33px;
+        margin-right: 5px;
+    }
+    .footerMenu.pt_100 {
+        padding-top: 48px !important;
+    }
+    .copyRightItem.py_40 {
+        padding: 30px 0 !important;
+    }
+    
+ }
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199px) { 
+    .hiringButton a{
+        margin-left: 21px;
+    } 
+ }
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1399px) { 
+    
+ }
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) { 
+    .hiringButton a{
+        margin-left: 25px;
+    } 
+ }
